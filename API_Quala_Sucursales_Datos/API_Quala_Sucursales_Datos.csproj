@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="x4jgtkxa.kms~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API_Quala_Sucursales_Entidades\API_Quala_Sucursales_Entidades.csproj" />
+    <ProjectReference Include="..\API_Quala_Sucursales_Utilidades\API_Quala_Sucursales_Utilidades.csproj" />
+  </ItemGroup>
+
+</Project>

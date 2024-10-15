@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API_Quala_Sucursales_Entidades\API_Quala_Sucursales_Entidades.csproj" />
+    <ProjectReference Include="..\API_Quala_Sucursales_Negocio\API_Quala_Sucursales_Negocio.csproj" />
+  </ItemGroup>
+
+</Project>
